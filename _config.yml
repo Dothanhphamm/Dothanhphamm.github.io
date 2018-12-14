@@ -290,8 +290,8 @@ plugins:
 # social:
 #   name:                <firstname> <lastname>
 #   links:
-      - https://facebook.com/Dothanhphammm
-      - https://github.com/Dothanhphamm
+#      - https://facebook.com/Dothanhphammm
+#      - https://github.com/Dothanhphamm
 
 
 # Other Plugins
