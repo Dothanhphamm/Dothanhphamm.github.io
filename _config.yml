@@ -25,12 +25,12 @@ title:                 Do Thanh Pham
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "Hello World 1".
-  # **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+   **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               >
   "Hello World 2".
-  Open `_config.yml` to edit this text.
+
 
 # A list of keywords for your blog
 keywords:              []
