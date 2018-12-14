@@ -106,3 +106,4 @@ references:
     reference: >
       It is my pleasure to recommend Richard, his performance working as a consultant for Main St.
       Company proved that he will be a valuable addition to any company.
+---
