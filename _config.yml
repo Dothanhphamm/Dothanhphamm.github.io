@@ -96,7 +96,8 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 
 defaults:
   - scope:
-      path:            hyde
+      # path:            hyde
+      path: 
     values:
       accent_color:    rgb(38,139,210)
       accent_image:
@@ -113,7 +114,7 @@ defaults:
         type:          WebPage
         order: 2
   - scope:
-      type:            resume.yml
+      type:            resume
     values:
       seo:
         type:          WebPage
