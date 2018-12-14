@@ -65,7 +65,7 @@ permalink:             /:categories/:year-:month-:day-:title/
 
 # Pagination configuration (used by the `blog` layout)
 paginate:              5
-paginate_path:         /my-blof/page-:num/
+paginate_path:         /my-blog/page-:num/
 
 
 # Customizaton
@@ -120,6 +120,11 @@ defaults:
     values:
       seo:
         type:          WebPage
+  - scope:
+      type:            my-blog
+    values:
+      seo:
+        type:
 
 
 # 3rd Party Integrations
