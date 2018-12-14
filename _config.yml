@@ -19,13 +19,13 @@ baseurl:               ''
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Do Thanh Phamm
+title:                 Do Thanh Pham
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
   "Hello World 1".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
+  # **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               >
@@ -42,8 +42,8 @@ logo:                  /assets/icons/icon.png
 
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
-  name:                <firstname> <lastname>
-  email:               <mail@domain.tld>
+  name:                Do Thanh Pham
+  email:               Dothanhphamm@gmail.com
   # Used by `jekyll-seo-tag`:
   # twitter:             <username>
 
@@ -290,8 +290,8 @@ plugins:
 # social:
 #   name:                <firstname> <lastname>
 #   links:
-#     - https://twitter.com/<username>
-#     - https://github.com/<username>
+      - https://facebook.com/Dothanhphammm
+      - https://github.com/Dothanhphamm
 
 
 # Other Plugins
