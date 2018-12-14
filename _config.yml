@@ -99,7 +99,7 @@ defaults:
       # path:            hyde
       path: 
     values:
-    menu: true
+
       accent_color:    rgb(38,139,210)
       accent_image:
         background:    rgb(32,32,32)
@@ -111,28 +111,28 @@ defaults:
   - scope:
       type:            projects
     values:
-     menu: true
+  
       seo:
         type:          WebPage
         order: 2
   - scope:
       type:            resume
     values:
-     menu: true
+ 
       seo:
         type:          WebPage
         order: 3
   - scope:
       type:            featured_tags
     values:
-     menu: true
+
       seo:
         type:          WebPage
         order: 4
   - scope:
       type:            my-blog.md
     values:
-     menu: true
+
       seo:
         type:
         order: 5
