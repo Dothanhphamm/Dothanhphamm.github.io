@@ -283,7 +283,9 @@ plugins:
 #   username:            <shortname>
 
 # Used for Facebook open graph
-# facebook:
+facebook: Dothanhphammm
+  name: Do Thanh Pham
+  link: https://facebook.com/Dothanhphammm
 #   app_id:              <id>
 #   publisher:           <id>
 #   admins:              <id>
