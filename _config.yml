@@ -102,6 +102,7 @@ defaults:
       accent_image:
         background:    rgb(32,32,32)
         overlay:       false
+        order: 1
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
@@ -110,21 +111,25 @@ defaults:
     values:
       seo:
         type:          WebPage
+        order: 2
   - scope:
       type:            featured_categories
     values:
       seo:
         type:          WebPage
+        order: 3
   - scope:
       type:            featured_tags
     values:
       seo:
         type:          WebPage
+        order: 4
   - scope:
-      type:            my-blog
+      type:            my-blog.md
     values:
       seo:
         type:
+        order: 5
 
 
 # 3rd Party Integrations
