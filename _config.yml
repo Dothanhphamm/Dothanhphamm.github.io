@@ -113,7 +113,7 @@ defaults:
         type:          WebPage
         order: 2
   - scope:
-      type:            featured_categories
+      type:            resume.yml
     values:
       seo:
         type:          WebPage
