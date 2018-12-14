@@ -24,12 +24,12 @@ title:                 Do Thanh Pham
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Hello World 1".
+  "Hello World 1"'
    **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
 
 # A shorter description for the sidebar.
 tagline:               >
-  "Welcome World".
+  Welcome World
 
 
 # A list of keywords for your blog
@@ -50,7 +50,7 @@ author:
 # This text will appear in a `<small>` tag in the footer of every page.
 copyright:             >
   © 2018. All rights reserved.
-  Open `_config.yml` to edit this text.
+  
 
 # Add links to the footer.
 # Typically you'll want to link to your impress, cookies or privacy policy, etc.
@@ -286,6 +286,17 @@ plugins:
 facebook:
   name: Do Thanh Pham
   link: Dothanhphammm
+github:
+  name: Do
+  link: Dothanhphamm
+instagram:
+  name: xoai
+  link: pham.thanh.do
+linkedin:
+  name: Do Thanh Pham
+  link: Dothanhphamm
+  
+ 
 #   app_id:              <id>
 #   publisher:           <id>
 #   admins:              <id>
