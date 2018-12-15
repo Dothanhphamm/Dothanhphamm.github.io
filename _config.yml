@@ -112,14 +112,13 @@ defaults:
       path: 
       type:            projects
     values:
-  
       seo:
         type:          WebPage
         order: 2
   - scope:
       type:            
     values:
-        path: doc/README.md
+        path:         README.md
       seo:
         type:          WebPage
         order: 3
