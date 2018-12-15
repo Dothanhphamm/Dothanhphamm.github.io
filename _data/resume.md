@@ -2,7 +2,8 @@
 layout: resume
 title:  Resume
 description: >
-  A short description of the page for search engines (~150 characters long).
+ Fake love.
+---
 resume:
           # If you have a `resume.json` file, copy it into `_data` and delete this file.
           # If you don't have a JSON Resume you can just edit this YAML file instead.
