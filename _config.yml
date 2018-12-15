@@ -97,7 +97,7 @@ font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
 defaults:
   - scope:
       # path:            hyde
-      path: 
+      path: my-blog.md
     values:
 
       accent_color:    rgb(38,139,210)
@@ -109,6 +109,7 @@ defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
+      path: 
       type:            projects
     values:
   
@@ -118,7 +119,7 @@ defaults:
   - scope:
       type:            resume
     values:
- 
+        path: doc/resume.yml
       seo:
         type:          WebPage
         order: 3
