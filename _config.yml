@@ -98,7 +98,7 @@ defaults:
   - scope:
       # path:            hyde
       path: my-blog.md
-    values:
+       values:
 
       accent_color:    rgb(38,139,210)
       accent_image:
@@ -114,6 +114,7 @@ defaults:
     values:
       seo:
         type:          WebPage
+        overlay:       false
         order: 2
   - scope:
       type:            
