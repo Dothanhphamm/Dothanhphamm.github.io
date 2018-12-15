@@ -6,4 +6,3 @@ permalink: /my-blog/
 sitemap: false
 ---
 Hello World
-
