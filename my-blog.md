@@ -1,12 +1,9 @@
 ---
 # file: my-blog/index.html
-title: My Blog
+title: Blog ò Do
 menu: true
 permalink: /my-blog/
 sitemap: false
 ---
-├── my-blog
-│   └── index.html
-├── !my-blog.md
-└── _config.yml
+Hello World
 
