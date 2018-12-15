@@ -117,9 +117,9 @@ defaults:
         type:          WebPage
         order: 2
   - scope:
-      type:            resume
+      type:            
     values:
-        path: doc/resume.yml
+        path: doc/README.md
       seo:
         type:          WebPage
         order: 3
