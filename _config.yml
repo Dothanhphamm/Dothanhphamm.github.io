@@ -101,16 +101,16 @@ defaults:
        values:
        # seo:
        menu: true
-      accent_color:    rgb(38,139,210)
-      accent_image:
-        background:    rgb(32,32,32)
+      # accent_color:    rgb(38,139,210)
+      # accent_image:
+        # background:    rgb(32,32,32)
         # overlay:       false
         order: 1
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
-      path: 
+      path: README.md
       # type:            projects
     values:
       menu: true
@@ -119,15 +119,16 @@ defaults:
         #overlay:       false
         order: 2
   - scope:
-      type:            
-    values:
+      # type:            
         path:         README.md
+        value:
       # seo:
       menu: true
         # type:          WebPage
         order: 3
   - scope:
-      type:            featured_tags
+      # type:            featured_tags
+      path: README.md
     values:
      menu: true
      # seo:
