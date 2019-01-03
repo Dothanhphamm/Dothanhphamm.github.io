@@ -99,44 +99,40 @@ defaults:
       # path:            hyde
       path: my-blog.md
        values:
-       seo:
+       # seo:
+       menu: true
       accent_color:    rgb(38,139,210)
       accent_image:
         background:    rgb(32,32,32)
-        overlay:       false
+        # overlay:       false
         order: 1
 
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,
   # but we want them to be `WebPage`s:
   - scope:
       path: 
-      type:            projects
+      # type:            projects
     values:
-      seo:
-        type:          WebPage
-        overlay:       false
+      menu: true
+      # seo: 
+        # type:          WebPage
+        #overlay:       false
         order: 2
   - scope:
       type:            
     values:
         path:         README.md
-      seo:
-        type:          WebPage
+      # seo:
+      menu: true
+        # type:          WebPage
         order: 3
   - scope:
       type:            featured_tags
     values:
-
-      seo:
-        type:          WebPage
+     menu: true
+     # seo:
+       # type:          WebPage
         order: 4
-  - scope:
-      type:            my-blog.md
-    values:
-
-      seo:
-        type:
-        order: 5
 
 
 # 3rd Party Integrations
