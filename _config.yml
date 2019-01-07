@@ -99,8 +99,9 @@ defaults:
       # path:            hyde
       path: my-blog.md
        values:
-       # seo:
        menu: true
+       seo:
+       type:   WebPage
       accent_color:    rgb(38,139,210)
       accent_image:
       background:    rgb(32,32,32)
